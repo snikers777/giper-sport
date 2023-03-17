@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #222222;
+    cursor:default;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.header {
+    background-color: #222222;
+    padding: 10px 0px;
+    box-shadow: 2px 2034px 0px 10px black;
+    position: fixed;
+    width: 100%;
+    z-index: 78987544353542123243453753343543543543;
+}
+
+.title {
+    color: #7fccf0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.text {
+    color: #b0b0b0;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 0px 10px;
+
+}
+
+.logo {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+
+.menu {
+    float: right;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0px 7px;
+    transition: 0.4s;
+    display: inline-block;
+}
+
+.menu-item:hover {
+    color: rgb(0, 36, 154);
+    transform: scale(1.3);
+}
+
+.img {
+    height: 100vh;
+    background-image: url(img/apex-legends-pathfinder-robot-emoticons-saluting-futuristic.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.img-title {
+    font-size: 70px;
+    color: #4e4e4e;
+    font-weight: 900;
+}
+
+.img-text {
+    font-size: 30px;
+    color: #4e4e4e;
+    font-weight: 100;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.img-buttn {
+    display: inline-block;
+    padding: 20px 40px;
+    background-image: linear-gradient(#84d7fa, #97fbcf);
+    text-decoration: none;
+    color: white;
+}
+
+.img-box {
+    position: absolute;
+    left: 30px;
+    top: 35%;
+    transform: translateY(-50%);
+}
+
+.center {
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.center-card {
+    text-decoration: none;
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+}
+
+.center-img {
+    width: 50%;
+    height: 100px;
+    margin-bottom: 10px;
+
+}
+
+.center-text {
+    color: #7fccf0;
+}
+
+.game-container {
+    box-shadow: 0 10px 25px black;
+    text-align: center;
+    padding: 30px 5px;
+
+}
+
+.game-card {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    text-align: left;
+    padding: 10px;
+}
+
+.game-name {
+    color: #96fbcd;
+    margin-bottom: 10px;
+}
+
+.game-line {
+    width: 90px;
+    height: 3px;
+    background-color: #96fbcd;
+}
+
+.game-text {
+    color: #b0b0b0;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.game-img {
+    width: 49%;
+}
+
+.info-title {
+    margin: 46px 0px;
+}
+
+.contacts-container {
+    box-shadow: 0 10px 25px black;
+    padding: 30px;
+}
+
+.contacts-liner {
+    width: 300px;
+    height: 2px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    margin-bottom: 10px;
+}
+
+.contacts-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #7fccf0;
+    padding: 50px;
+}
+
+.contacts-title {
+    color: rgb(255, 255, 255);
+}
+
+.contacts-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.contacts-btn:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    transform: scale(1.2);
+}
+
+.form {
+    margin-top: 40px;
+    box-shadow: 0px 0px 25px black;
+    margin-bottom: 40px;
+}
+
+.form-head {
+    background-color: #83d6fa;
+    position: relative;
+    height: 50px;
+}
+
+.form-back {
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #000000;
+}
+
+.form-title {
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+}
+
+.form-body {
+    padding: 50px;
+}
+
+.form-fieldset {
+    padding: 40px 30px;
+}
+
+.form-legend {
+    color: #ffffff;
+}
+
+.form-input {
+    width: 100%;
+    padding: 15px;
+    background-color:#222222;
+    border: none; 
+    border-bottom: 1px solid white;
+    color: #ffffff;
+    outline: none;
+
+}
+
+.form-input:focus {
+    background-color:#222222 ;
+}
+
+.form-input:focus-visible{
+    background-color:#222222 ;
+}
+
+.form-input:active{
+    background-color:#222222 ;
+}
+
+.form-gerden {
+    color: #ffffff;
+    margin: 15px 0px;
+}
+
+.form-text {
+    padding: 22px 0px;
+}
+
+
+
+.form-label {
+    color: #ffffff;
+}
+
+.form-age {
+    margin: 10px 0px;
+}
+
+
+
+.form-dis {
+    margin: 15px 0px;
+}
+
+.form-comment {
+    background-color: #222222;
+    width: 100%;
+    height: 200px;
+    resize: none;
+    outline: none;
+}
+
+.form-btn {
+    margin: 0px auto;
+    display: block;
+    background-image: linear-gradient(#84d7fa, #97fbcf);
+    padding: 20px 10px;
+    width: 300px;
+    color: #ffffff;
+}
+
+@media(max-width:992px){
+    .img {
+        background-position: right top;
+    }
+}
+
+@media(max-width:650px){
+    .img-title {
+        font-size: 50px;
+    }
+
+    .game-card {
+        width: 100%;
+    }
+
+    .game-img {
+        width: 100%;
+    }
+
+    .game-box-flex{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media(max-width:600px){
+    .center-card {
+        width: 40%;
+    }
+}
+
+@media(max-width:550px){
+    .form-btn {
+        width: 100%;
+    }
+}
+
+@media(max-width:480px){
+    .img-title {
+        font-size: 40px;
+    }
+
+    .contacts-title {
+        color: rgb(255, 255, 255);
+    }
+    
+    .contacts-btn {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .img-text {
+        font-size: 20px;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .contacts-box {
+        flex-direction: column;
+
+    }
+}
+
+@media(max-width:400px){
+    .logo {
+        text-align: center;
+        display: block;
+    }
+
+    .img-title {
+        font-size: 30px;
+    }
+
+    .img-text {
+        font-size: 19px;
+    }
+
+    .menu {
+        float: none;
+        text-align: center;
+    }
+}
